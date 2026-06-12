@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "bananarang",
+	"version": "${version}",
+	"name": "Bananarang",
+	"description": "Throw a banana. It comes back. Everything in its path does not.",
+	"authors": [
+		"Piotr"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/bananarang/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.piotr.bananarang.Bananarang"
+		],
+		"client": [
+			"dev.piotr.bananarang.client.BananarangClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
